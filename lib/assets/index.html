@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="icon" type="image/png" sizes="32x32" href="/logo">
-    <title>SILVA TECH</title>
+    <title>SILVA TECH 💜🇰🇪🇰🇪</title>
 
     <script>
         window.console = window.console || function(t) {};
@@ -26,16 +26,300 @@
 
    body {
        background: #05705d;
-       background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8)), url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2xkMWloaXpvNjRtNTAyMjJscW9uYnhjYjF2cTA1a3dwbTJ6bnU5ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eVSqI3mZYfaDIXYsnS/giphy.gif");
+       background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8)), url("https://raw.githubusercontent.com/Sylivanu/s-ilva/main/lib/assets/pk.jpg");
        background-repeat: no-repeat;
        background-size: cover;
        background-position: center;
        width: 98vw;
        height: 97vh;
-   
+
     }
 
-h1 {
+   #work {
+       width: 300px;
+       margin: 0 auto;
+       position: relative;
+       top: -20px;
+       -webkit-animation-name: routate;
+       -webkit-animation-duration: 4s;
+       -webkit-animation-iteration-count: infinite;
+       animation-name: routate;
+       animation-duration: 5s;
+       animation-iteration-count: infinite;
+   }
+
+   @-webkit-keyframes routate {
+       0% {
+           -webkit-transform: rotate(7deg);
+           -ms-transform: rotate(7deg);
+           transform: rotate(7deg);
+       }
+       50% {
+           -webkit-transform: rotate(-7deg);
+           -ms-transform: rotate(-7deg);
+           transform: rotate(-7deg);
+       }
+       100% {
+           -webkit-transform: rotate(7deg);
+           -ms-transform: rotate(7deg);
+           transform: rotate(7deg);
+       }
+   }
+
+   @keyframes routate {
+       0% {
+           -webkit-transform: rotate(7deg);
+           -ms-transform: rotate(7deg);
+           transform: rotate(7deg);
+       }
+       50% {
+           -webkit-transform: rotate(-7deg);
+           -ms-transform: rotate(-7deg);
+           transform: rotate(-7deg);
+       }
+       100% {
+           -webkit-transform: rotate(7deg);
+           -ms-transform: rotate(7deg);
+           transform: rotate(7deg);
+       }
+   }
+
+   #work #wire {
+       margin: 0 auto;
+       height: 130px;
+       width: 10px;
+       background: #261647;
+       border: 5px #0c032e solid;
+   }
+
+   #work #c1 {
+       position: absolute;
+       z-index: 5;
+       bottom: 0;
+       height: 300px;
+   }
+
+   #work .light {
+       width: 100%;
+       height: 100%;
+       padding: 30px;
+       margin: 0 auto;
+       background: rgba(255, 155, 0, 0.08);
+       -webkit-border-radius: 100%;
+       -moz-border-radius: 100%;
+       border-radius: 100%;
+       -webkit-animation-name: flash;
+       -webkit-animation-duration: 4s;
+       -webkit-animation-iteration-count: infinite;
+       animation-name: flash;
+       animation-duration: 1s;
+       animation-iteration-count: infinite;
+   }
+
+   @-webkit-keyframes flash {
+       0% {
+           background: rgba(255, 155, 0, 0.08);
+       }
+       50% {
+           background: rgba(255, 155, 0, 0.04);
+       }
+       100% {
+           background: rgba(255, 155, 0, 0.08);
+       }
+   }
+
+   @keyframes flash {
+       0% {
+           background: rgba(255, 155, 0, 0.08);
+       }
+       50% {
+           background: rgba(255, 155, 0, 0.04);
+       }
+       100% {
+           background: rgba(255, 155, 0, 0.08);
+       }
+   }
+
+   #fanos {
+       height: 380px;
+       padding: 10px;
+       margin: 0 auto;
+       position: relative;
+       top: -20px;
+   }
+
+   #small-circle {
+       margin: 0 auto;
+       width: 30px;
+       height: 30px;
+       -webkit-border-radius: 100%;
+       -moz-border-radius: 100%;
+       border-radius: 100%;
+       background: #261647;
+       border: 5px #0c032e solid;
+       position: relative;
+       z-index: 5;
+   }
+
+   #half-circle {
+       width: 120px;
+       height: 120px;
+       position: absolute;
+       top: 25px;
+       left: 50%;
+       -webkit-transform: translateX(-50%);
+       -ms-transform: translateX(-50%);
+       transform: translateX(-50%);
+       z-index: 1;
+       -webkit-border-radius: 100%;
+       -moz-border-radius: 100%;
+       border-radius: 100%;
+       background: #40315a;
+       border: 5px #0c032e solid;
+   }
+
+   #bottom-quppa {
+       margin: 0 auto;
+       position: relative;
+       top: 50px;
+       z-index: 3;
+   }
+
+   #line {
+       margin: 0 auto;
+       width: 200px;
+       height: 30px;
+       padding-top: 3px;
+       background: #261647;
+       border: 5px #0c032e solid;
+       overflow: hidden;
+       text-align: center;
+   }
+
+   #line .ball {
+       width: 15px;
+       height: 15px;
+       margin: auto 5px;
+       display: inline-block;
+       -webkit-border-radius: 100%;
+       -moz-border-radius: 100%;
+       border-radius: 100%;
+       background: #000000;
+       border: 5px #0c032e solid;
+   }
+
+   #top-triangle {
+       margin: 0 auto;
+       width: 210px;
+       height: 0;
+       border-left: 25px transparent solid;
+       border-right: 25px transparent solid;
+       border-bottom: 30px #0c032e solid;
+       position: relative;
+       top: -5px;
+   }
+
+   #top-triangle:after {
+       content: '';
+       display: block;
+       position: absolute;
+       z-index: 3;
+       left: 50%;
+       -webkit-transform: translateX(-50%);
+       -ms-transform: translateX(-50%);
+       transform: translateX(-50%);
+       top: 5px;
+       width: 155px;
+       height: 0;
+       border-left: 15px transparent solid;
+       border-right: 15px transparent solid;
+       border-bottom: 20px #40315a solid;
+   }
+
+   #box {
+       width: 170px;
+       margin: 0 auto;
+       height: 180px;
+       background: rgba(255, 255, 255, 0.1);
+       position: relative;
+       top: -10px;
+       z-index: 1;
+       border: 5px #0c032e solid;
+   }
+
+   #box #candel {
+       height: 60px;
+       width: 30px;
+       background: #ffffff;
+       border: 5px #0c032e solid;
+       border-bottom: 0;
+       position: absolute;
+       z-index: 1;
+       left: 65px;
+       bottom: 0;
+   }
+
+   #box #candel:after {
+       content: '';
+       display: block;
+       margin: 0 auto;
+       position: relative;
+       top: -20px;
+       width: 10px;
+       height: 15px;
+       -webkit-border-radius: 100%;
+       -moz-border-radius: 100%;
+       border-radius: 100%;
+       background: #ff9b00;
+       border: 5px #0c032e solid;
+   }
+
+   #box #col {
+       margin: 0 auto;
+       width: 90px;
+       height: 170px;
+       border-left: 5px #0c032e solid;
+       border-right: 5px #0c032e solid;
+       position: relative;
+       z-index: 2;
+       background: rgba(255, 255, 255, 0.1);
+   }
+
+   #final {
+       position: relative;
+       z-index: 4;
+       top: -15px;
+   }
+
+   #last-triangle {
+       margin: 0 auto;
+       width: 245px;
+       height: 0;
+       border-left: 25px transparent solid;
+       border-right: 25px transparent solid;
+       border-bottom: 25px #0c032e solid;
+       position: relative;
+       top: -5px;
+   }
+
+   #last-triangle:after {
+       content: '';
+       display: block;
+       position: absolute;
+       z-index: 3;
+       left: 50%;
+       -webkit-transform: translateX(-50%);
+       -ms-transform: translateX(-50%);
+       transform: translateX(-50%);
+       top: 5px;
+       width: 190px;
+       height: 0;
+       border-left: 15px transparent solid;
+       border-right: 15px transparent solid;
+       border-bottom: 15px #40315a solid;
+   }
+
+   h1 {
        text-align: center;
        position: relative;
        /* bottom: 20px; */
@@ -50,7 +334,7 @@ h1 {
     background:#3c3c3c;
     /* padding: 10px auto; */
     /* align-items: center; */
- 
+
 
    }
    ul li{    
@@ -73,185 +357,69 @@ a:hover{
     /* font-size: 20px; */
 }
 
+
+
 </style>
 
 </head>
+
 <body translate="no">
     <ul>
-      <li><a href="/qr">QR</a></li>
-      <li><a href="/var">VARIABLEN</a></li>
-      <li><a href='https://github.com/SilvaTechB'> GITHUB </a></li>
-      <li><a href='https://github.com/SilvaTechB/silva-md-bot/wiki'> WIKI's </a></li>
-      <li><a href='https://tiktok.com/@silva.edits6'> TIKTOK </a></li>
-      <li><a href='https://wa.me/254743706010'> WHATSAPP </a></li>
+        <li><a href="/qr">Qr</a></li>
+        <li><a href="/var">VARIABLES</a></li>
+        <li><a href='https://github.com/SilvaTechB' > GITHUB </a></li>
+        <li><a href='https://github.com/SilvaTechB/silva-md-bot/wiki' > WIKI's </a></li>
+        <li><a href='https://tiktok.com/@silva.edits6' > TIKTOK </a></li>
+        <li><a href='https://wa.me/254743706010' > WHATSAPP </a></li>
     </ul>
-<style>
-.neon-letters {
-  font-family: Arial, sans-serif;
-  font-size: 48px;
-  font-weight: bold;
-  text-align: center;
-  margin: 40px auto;
-  perspective: 1000px;
-}
 
-.letter {
-  position: relative;
-  display: inline-block;
-  color: #33CCFF; /* neon blue */
-  text-shadow: 0 0 10px #33CCFF, 0 0 20px #33CCFF, 0 0 30px #33CCFF;
-  animation: move 3s infinite;
-}
 
-.letter:nth-child(1) {
-  animation-delay: 0s;
-}
+    <div id="work">
+        <div id="wire"></div>
+        <div id="fanos">
+            <div id="small-circle"></div>
+            <div id="half-circle"></div>
+            <div id="bottom-quppa">
+                <div id="line">
+                    <span class="ball"></span>
+                    <span class="ball"></span>
+                    <span class="ball"></span>
+                    <span class="ball"></span>
+                    <span class="ball"></span>
+                    <span class="ball"></span>
+                    <span class="ball"></span>
+                </div>
+                <div id="top-triangle"></div>
+                <div id="box">
+                    <div id="candel"></div>
+                    <div id="col"></div>
+                </div>
+                <div id="final">
+                    <div id="line"></div>
+                    <div id="last-triangle"></div>
+                </div>
+            </div>
+        </div>
+        <div class="light" id="c1">
+            <div class="light">
+                <div class="light">
+                    <div class="light">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-.letter:nth-child(2) {
-  animation-delay: 0.2s;
-}
 
-.letter:nth-child(3) {
-  animation-delay: 0.4s;
-}
-
-.letter:nth-child(4) {
-  animation-delay: 0.6s;
-}
-
-.letter:nth-child(5) {
-  animation-delay: 0.8s;
-}
-
-@keyframes move {
-  0% {
-    transform: translateX(0) translateY(0) rotate(0);
-  }
-  25% {
-    transform: translateX(-10px) translateY(10px) rotate(10deg);
-  }
-  50% {
-    transform: translateX(10px) translateY(-10px) rotate(-10deg);
-  }
-  75% {
-    transform: translateX(-10px) translateY(10px) rotate(10deg);
-  }
-  100% {
-    transform: translateX(0) translateY(0) rotate(0);
-  }
-}
-</style>
-
-<div class="neon-letters">
-  <span class="letter" data-letter="S">S</span>
-  <span class="letter" data-letter="I">I</span>
-  <span class="letter" data-letter="L">L</span>
-  <span class="letter" data-letter="V">V</span>
-  <span class="letter" data-letter="A">A</span>
-</div>
-
-    <h1 style="color: #d4cfcf; "> SILVA TECH </h1>
+    <h1 style="color: #d4cfcf; "> SILVA TECH ❤️</h1>
 <br>
     <h1>
-        silva tech is a <span style="border-bottom:4px dotted #3c3c3c; color: #d4cfcf;">Kenyan</span> tech organization developed by Sylivanus Momanyi.
-        
+        A Simple <span style="border-bottom:4px dotted #3c3c3c; color: #d4cfcf;">Kenyan</span> Whatsapp Bot by Sylivanus Momanyi.
+
     </h1>
-    
-  <script>
-    window.addEventListener("load", () => {
-      clock();
-      function clock() {
-        const today = new Date();
 
-        // get time components
-        const hou = today.getHours();
-        const min = today.getMinutes();
-        const sec = today.getSeconds();
-        const day = today.getDate();
-        const month = today.getMonth() + 1;
-        const year = today.getFullYear();
 
-        // format time components
-        const hourTime = hou < 10 ? "0" + hou : hou;
-        const minute = min < 10 ? "0" + min : min;
-        const second = sec < 10 ? "0" + sec : sec;
-        const monthList = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
-        // combine current date and time
-        const date = monthList[month - 1] + " " + day + ", " + year;
-        const time = hourTime + ":" + minute + ":" + second;
-
-        // print current date and time to the DOM
-        document.getElementById("date-time").innerHTML = date + " - " + time;
-
-        setTimeout(clock, 1000);
-      }
-    });
-  </script>
- <h1 align="center"> This is 𝑺𝒊𝒍𝒗𝒂 𝒕𝒆𝒄𝒉
-  <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width="150">
-</h1>
-
-<br>
-
-<p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=purple&size=25&center=true&vCenter=true&width=600&height=100&lines=Hello+am+Silva+Tech..;&hearts;++;Self-taught+Back-End+Developer,+From+Kenya🇰🇪,+My+Hobby+Is+Coding,+Active+Learner/Researcher,+Love+to+learn+new+stuffs..🥂💕">
-  </a>
-  </p>
-
-<p><b><span style="border-bottom:4px dotted #3c3c3c; color: #d4cfcf;">connect with silva</span></b></p>
-
-<p>
-  <a href="https://wa.me/message/254700143167"> 
-    <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="10%"> 
-  </a>
-  <a href="https://tiktok.com/@silva.edits6"> 
-    <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/tiktok.png" width="11%"> 
-  </a>
-  <a href="https://www.facebook.com/silva"> 
-    <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Facebook.png" width="12%"> 
-  </a>
-  <a href="https://twitter.com/silva"> 
-    <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/twitter.png" width="10%"> 
-  </a>
-</p>
-
-<br><br>
-
-<table align="center">
-  <tr border="none">
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=SilvaTechB&theme=dark&show_icons=true&count_private=true" align="center"> 
-      <br> 
-      <br>
-      <a href="https://github.com/SilvaTechB">
-        <img src="https://github-readme-streak-stats.herokuapp.com?user=SilvaTechB&theme=merko&border_radius=70&fire=EB5454&stroke=EB5454&border=EB5454" alt="Silva" />
-      </a>
-    </td>
-    <td width="50%"
-        <div style="position:absolute;top:0;right:0;font-size:2em;color:white;padding:10px;">
-  <span id="date"></span>
-  <span id="time"></span>
-</div>
-
-<script>
-  // Update the date and time every second
-  setInterval(function() {
-    // Create a new Date object
-    var now = new Date();
-
-    // Format the date as "Month Day, Year"
-    var date = [now.getMonth() + 1, now.getDate(), now.getFullYear()].join('/') + ' ';
-
-    // Format the time as "Hour:Minute:Second"
-    var time = [now.getHours(), now.getMinutes(), now.getSeconds()].join(':');
-
-    // Display the date and time
-    document.getElementById('date').textContent = date;
-    document.getElementById('time').textContent = time;
-  }, 1000);
-</script>
 </body>
 
-    </html>
+</html>
