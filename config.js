@@ -92,7 +92,7 @@ module.exports = {
 
 
   WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "public",
-  LANG: ( process.env.THEME ||  "SILVA"  ).toUpperCase(),
+  LANG: ( process.env.THEME ||  "ZEROTWO"  ).toUpperCase(),
 
 
 
