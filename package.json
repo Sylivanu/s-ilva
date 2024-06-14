@@ -5,13 +5,13 @@
    "main": "index.js",
    "type": "commonjs",  
    "scripts": {
-            "run": "pm2 start . --deep-monitoring --attach --name s-ilva || node .",
-            "s-ilva": "pm2 start . --deep-monitoring --attach --name s-ilva || node .",
-            "start": "pm2 start . --attach --name s-ilva",
-            "stop": "pm2 stop s-ilva",
+            "run": "pm2 start . --deep-monitoring --attach --name Suhail",
+            "suhail": "pm2 start . --deep-monitoring --attach --name Suhail",
+            "start": "pm2 start . --attach --name Suhail",
+            "stop": "pm2 stop Suhail",
             "old-heroku-postbuild": "git clone https://github.com/Sylivanu/s-ilva.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
             "fis-heroku-postbuild": "git clone https://github.com/Sylivanu/s-ilva.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
-            "dbs--postinstall": "npx puppeteer@latest install --y"
+            "old-postinstall": "npx puppeteer@latest install --y"
    },
    "author": "Sylivanu",
    "license" :"Apache-2.0",
@@ -60,8 +60,8 @@
              "translatte": "^3.0.1",
              "util": "^0.12.4",
              "wa-sticker-formatter": "^4.3.2",
-             "youtubei.js": "9.4.0",
-             "ytdl-secktor": "npm:ytdl-core@latest",
+             "youtubei.js": "^7.0.0",
+             "ytdl-secktor": "^0.0.1-development",
              "link-preview-js": "^3.0.0",
             "puppeteer": "latest"
    },
@@ -69,13 +69,5 @@
       "lib": "lib",
       "plugins" :"lib/plugins"
    },
-   "devDependencies": {
-      "pino": "^7.0.5"
-   },
-   "--repository": {
-      "type": "git",
-      "url": "git+https://github.com/Sylivanu/s-ilva.git"
-   },
-   "--bugs": { "url": "https://github.com/Sylivanu/s-ilva/issues" },
-   "--homepage": "https://github.com/Sylivanu/s-ilva#readme"
+   "devDependencies": { "pino": "^7.0.5" }
 }
