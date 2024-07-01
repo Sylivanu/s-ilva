@@ -105,6 +105,35 @@ For help visit [Github wiki](https://github.com/SilvaTechB/silva-md-bot/wiki)
 ***
 <a href="https://whatsapp.com/channel/0029VaAkETLLY6d8qhLmZt2v"><img alt="WhatsApp" src="https://img.shields.io/badge/-Whatsapp%20Channel-maroom?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 
+#### RUN ON VPS/UBUNTU/WINDOWS
+
+1. Install NodeJs,ffmpeg
+2. Installation
+   ```
+   npm i -global pm2
+   git clone https://github.com/Sylivanu/s-ilva.git
+   cd s-ilva
+   npm install
+   ```
+3. Configuration
+   ```
+   echo "VPS = true
+     SESSION_ID = null
+     AUTH_FILE = session
+     SUDO = null
+     PREFIX = .
+     MODE = private
+     LOG_MSG = true" > config.env
+   ```
+- Start
+  ```
+  npm start
+  ```
+- Stop
+  ```
+  pm2 delete s-ilva
+  ```
+
 
 ---
 
