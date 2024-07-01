@@ -4,7 +4,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //═══════[Required Variables]════════\\
 global.audio= "" ;  
-global.video= "" ;
+global.video= "https://telegra.ph/file/bd7de62f35507d6b4c2de.mp4" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
 global.email ="sylivanusmomanyi@gmail.com"
@@ -20,7 +20,7 @@ global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Nairobi";
 global.github=process.env.GITHUB|| "https://github.com/SilvaTechB/silva-md-bot";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaAkETLLY6d8qhLmZt2v";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaAkETLLY6d8qhLmZt2v" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/751eef74109e0e5c8916c.jpg" ; // SET LOGO FOR IMAGE 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/9c522f89834cfb510738d.jpg" ; // SET LOGO FOR IMAGE 
 global.caption = process.env.CAPTION || global.caption || "𝑺𝒊𝒍𝒗𝒂 𝒕𝒆𝒄𝒉-ᴍᴅ" 
 
 
