@@ -14,13 +14,13 @@ let {
  smd(
   {
     pattern: "channel",
-    desc: "To check ping",
+    desc: "To check bot channel",
     react: "🗨️",
     category: "user",
     filename: __filename,
   },
   async (message) => {
-    const channelMessage = `Sylivanu 𝑾𝑨𝑪𝑯𝑨𝑵𝑵𝑬𝑳\n\n _𝙹𝙾𝙸𝙽 𝙰𝙽𝙳 𝙵𝙾𝙻𝙻𝙾𝚆 𝚃𝙷𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝚃𝙾 𝙱𝙴 𝙶𝙴𝚃𝚃𝙸𝙽𝙶 𝙻𝙰𝚃𝙴𝚂𝚃 𝚄𝙿𝙳𝙰𝚃𝙴𝚂_\n *ʟɪɴᴋ:* https://whatsapp.com/channel/0029VaAkETLLY6d8qhLmZt2v\n\n ${Config.botname} *WORKS*`;
+    const channelMessage = `Sylivanus 𝑾𝑨𝑪𝑯𝑨𝑵𝑵𝑬𝑳\n\n _𝙹𝙾𝙸𝙽 𝙰𝙽𝙳 𝙵𝙾𝙻𝙻𝙾𝚆 𝚃𝙷𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝚃𝙾 𝙱𝙴 𝙶𝙴𝚃𝚃𝙸𝙽𝙶 𝙻𝙰𝚃𝙴𝚂𝚃 𝚄𝙿𝙳𝙰𝚃𝙴𝚂_\n *ʟɪɴᴋ:* https://whatsapp.com/channel/0029VaAkETLLY6d8qhLmZt2v\n\n ${Config.botname} *WORKS*`;
 
     const contextInfo = {
       forwardingScore: 999,
@@ -74,7 +74,7 @@ smd(
        contextInfo: {
          ...(await _0x1cec94.bot.contextInfo("ACTIVE USERS", _0x1cec94.senderName))
        }
-     }, "asta", _0x1cec94);
+     }, "silva", _0x1cec94);
    } catch (_0x225db9) {
      console.log({
        e: _0x225db9
@@ -160,7 +160,7 @@ smd(
            thumbnail: await smdBuffer(await _0x17bb63.getpp())
          }
        }
-     }, "asta");
+     }, "silva");
    } catch (_0x2ace2e) {}
  });
  smd({
@@ -215,7 +215,7 @@ smd(
          caption: _0x3367ca
        });
      } else {
-       _0x7587f6.reply("*Request Denied!*");
+       _0x7587f6.reply("*Request Terminated!*");
      }
    } catch (_0x408490) {
      await _0x7587f6.error(_0x408490 + "\n\ncommand : document", _0x408490, false);
