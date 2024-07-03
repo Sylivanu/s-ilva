@@ -1,14 +1,14 @@
 {
    "name": "s-ilva",
-   "version": "1.3.7",
+   "version": "2.3.9",
    "description": "Multi device whatsapp bot.",
    "main": "index.js",
    "type": "commonjs",  
    "scripts": {
-            "run": "pm2 start . --deep-monitoring --attach --name Suhail",
-            "suhail": "pm2 start . --deep-monitoring --attach --name Suhail",
-            "start": "pm2 start . --attach --name Suhail",
-            "stop": "pm2 stop Suhail",
+            "run": "pm2 start . --deep-monitoring --attach --name Silva",
+            "suhail": "pm2 start . --deep-monitoring --attach --name Silva",
+            "start": "pm2 start . --attach --name Silva",
+            "stop": "pm2 stop Silva",
             "old-heroku-postbuild": "git clone https://github.com/Sylivanu/s-ilva.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
             "fis-heroku-postbuild": "git clone https://github.com/Sylivanu/s-ilva.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
             "old-postinstall": "npx puppeteer@latest install --y"
