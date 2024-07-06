@@ -2,7 +2,7 @@ const bot = require(__dirname + '/lib/smd')
 const { VERSION } = require(__dirname + '/config')
 
 const start = async () => {
-    Debug.info(`Silva tech ${VERSION}`)
+    Debug.info(`Silva Md ${VERSION}`)
   try {
     await bot.init()
     bot.logger.info('⏳ Database syncing!')
