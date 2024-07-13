@@ -11,7 +11,7 @@ global.email ="sylivanusmomanyi@gmail.com"
 global.location="Kisii,Kenya."
 
 
-global.mongodb= process.env.MONGODB_URI || ""
+global.mongodb= process.env.MONGODB_URI || "mongodb+srv://wasitech10:WASImd##12@cluster0.eclhxiz.mongodb.net/?retryWrites=true&w=majority"
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "120363180849475037@g.us"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
