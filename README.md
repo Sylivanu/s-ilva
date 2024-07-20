@@ -58,6 +58,10 @@
 
  <h3>silva tech Stats</h3>
 
+![ Stats](https://github-readme-stats.vercel.app/api/pin/?username=Sylivanu&repo=s-ilva&show_owner=true&theme=dark)
+
+ <h3>old silva tech Stats</h3>
+
 ![ Stats](https://github-readme-stats.vercel.app/api/pin/?username=SilvaTechB&repo=silva-md-bot&show_owner=true&theme=dark)
 
 
@@ -69,7 +73,7 @@
 
 1. Scan the QR and copy it
     <br>
-<a href='https://suhail-md-vtsf.onrender.com/code' target="_blank"><img alt='PAIR CODE' src='https://img.shields.io/badge/Pair_code-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=blue'/></a>
+<a href='https://silva-md-session.onrender.com/' target="_blank"><img alt='PAIR CODE' src='https://img.shields.io/badge/Pair_code-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=yellow'/></a>
 
 #### DEPLOY TO HEROKU 
 
@@ -161,7 +165,7 @@ For help visit [Github wiki](https://github.com/SilvaTechB/silva-md-bot/wiki)
 </p>
 <p> <b>Connect With me:</b></p>
 <p>
-<a href="https://wa.me/message/254700143167"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="10%"> </a><a href="https://tiktok.com/@silva.edits6"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/tiktok.png" width="11%"> </a><a href="https://www.facebook.com/silva"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Facebook.png" width="12%"> </a><a href="https://twitter.com/silva"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/x.png" width="10%"> </a>
+<a href="https://wa.me/message/254700143167"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="10%"> </a><a href="https://tiktok.com/@silva.edits6"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/tiktok.png" width="11%"> </a><a href="https://www.facebook.com/"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Facebook.png" width="12%"> </a><a href="https://twitter.com/silva"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/x.png" width="10%"> </a>
 </p>
 </p>
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=SilvaTechB&label=Visitors%20count&color=10d9c3&style=plastic" alt="Silva Tech" /> </p>
@@ -189,18 +193,6 @@ For help visit [Github wiki](https://github.com/SilvaTechB/silva-md-bot/wiki)
 </div>
 
 - 👋 Hi, I’m @SilvaTechB <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80">
-
-- 👀 I’m interested in ... coding 
-
-- 🌱 I’m currently learning ... 
-
-- 💞️ I’m looking to collaborate on ... bot creation 
-
-- 📫 How to reach me ...
-
-- 😄 Pronouns: ...
-
-- ⚡ Fun fact: ...
 
 
 <!---
