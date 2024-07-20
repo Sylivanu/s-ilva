@@ -20,6 +20,11 @@
 
 <p align="center">
   <a href="https://github.com/SilvaTechB/silva-md-bot">
+    <img alt="Silva docs" height="300" src="lib/assets/pk.jpg">
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/SilvaTechB/silva-md-bot">
     <img alt="Silva docs" height="300" src="https://telegra.ph/file/751eef74109e0e5c8916c.jpg">
   </a>
 </p>
