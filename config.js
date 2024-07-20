@@ -13,7 +13,7 @@ global.location="Kisii,Kenya."
 
 global.mongodb= process.env.MONGODB_URI || ""
 global.allowJids= process.env.ALLOW_JID || "null" 
-global.blockJids= process.env.BLOCK_JID || "120363180849475037@g.us"
+global.blockJids= process.env.BLOCK_JID || ""
 global.DATABASE_URL = process.env.DATABASE_URL || "postgres://u4orkeulqa5b9m:pc90e97423c91d1aa0a9e1722ec790b8d753d1948a04d49e6e9da45f0ca6f40a0@ceqbglof0h8enj.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d1cogn2pmpblbr"
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Nairobi";
