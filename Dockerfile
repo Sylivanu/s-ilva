@@ -1,7 +1,7 @@
 #=============================================#
  
 
-FROM quay.io/sampandey001/secktor
+FROM quay.io/sylivanu/s-ilva
 RUN git clone https://github.com/Sylivanu/s-ilva.git /root/silva
 WORKDIR /root/silva/
 RUN rm -rf .git
