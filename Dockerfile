@@ -2,8 +2,8 @@
  
 
 FROM quay.io/sylivanu/s-ilva
-RUN git clone https://github.com/Sylivanu/s-ilva.git /root/silva
-WORKDIR /root/silva/
+RUN git clone https://github.com/Sylivanu/s-ilva.git /root/smdd
+WORKDIR /root/smdd/
 RUN rm -rf .git
 RUN npm install
 EXPOSE 8000
