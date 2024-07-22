@@ -1,7 +1,7 @@
 {
   "name": "silva-md-bot",
   "logo": "https://telegra.ph/file/751eef74109e0e5c8916c.jpg",
-  "success_url": "/suhail/",
+  "success_url": "/silva/",
   "app_url": "/qr/",
   "ok-stack":"container",
   "env": {
