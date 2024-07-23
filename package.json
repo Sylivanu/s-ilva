@@ -60,8 +60,8 @@
              "translatte": "^3.0.1",
              "util": "^0.12.4",
              "wa-sticker-formatter": "^4.3.2",
-             "youtubei.js": "^7.0.0",
-             "ytdl-secktor": "^0.0.1-development",
+             "youtubei.js": "9.4.0",
+             "ytdl-secktor": "npm:ytdl-core@latest",
              "link-preview-js": "^3.0.0",
             "puppeteer": "latest"
    },
@@ -69,5 +69,13 @@
       "lib": "lib",
       "plugins" :"lib/plugins"
    },
-   "devDependencies": { "pino": "^7.0.5" }
+   "devDependencies": {
+      "pino": "^7.0.5"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Sylivanu/s-ilva.git"
+   },
+   "--bugs": { "url": "https://github.com/Sylivanu/s-ilva/issues" },
+   "--homepage": "https://github.com/Sylivanu/s-ilva#readme"
 }
